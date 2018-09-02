@@ -43,6 +43,13 @@ onAction('IMPORT_START_REQUEST', async (action, dispatch, getState) => {
 ```
 
 ## API
+### createOnActionMiddleware
+Returns object with fields:
+* `middleware` -
+Function, [Redux middleware](https://redux.js.org/advanced/middleware).
+* `onAction` -
+Function, see [onAction](#onaction).
+
 ### onAction
 Registers action listener. When specified action is dispatched - provided function will be called.
 
