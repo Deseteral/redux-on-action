@@ -9,7 +9,7 @@ function createOnActionMiddleware() {
 
   const onAction = (action, callback) => {
     if (!subscriptions[action]) subscriptions[action] = [];
-    subscriptions[action] = callback;
+    subscriptions[action].push(callback);
   };
 
   return { middleware, onAction };
