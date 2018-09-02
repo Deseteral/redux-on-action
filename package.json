@@ -1,6 +1,6 @@
 {
   "name": "redux-on-action",
-  "version": "1.0.0-rc2",
+  "version": "1.0.0-rc3",
   "description": "Do something async when Redux action happens",
   "source": "src/index.js",
   "module": "dist/redux-on-action.es.js",
@@ -9,7 +9,7 @@
   "scripts": {
     "build": "microbundle src/index.js -o dist/redux-on-action.js",
     "test": "eslint src",
-    "release": "npm t && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
+    "release": "npm run build && npm t && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
   },
   "author": "Deseteral <deseteral@gmail.com>",
   "license": "MIT",
