@@ -1,7 +1,7 @@
 # redux-on-action
 [![Build Status](https://travis-ci.org/Deseteral/redux-on-action.svg?branch=master)](https://travis-ci.org/Deseteral/redux-on-action)
 
-Do something async when Redux action happens. Yet another (tiny) Redux async middleware.
+Do something async when Redux action happens. Yet another (tiny, ~185 bytes) Redux async middleware.
 
 ## Table of Contents
 * [Install](#install)
