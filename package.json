@@ -2,6 +2,8 @@
   "name": "redux-on-action",
   "version": "1.0.0-rc3",
   "description": "Do something async when Redux action happens",
+  "author": "Deseteral <deseteral@gmail.com>",
+  "license": "MIT",
   "source": "src/index.js",
   "module": "dist/redux-on-action.es.js",
   "main": "dist/redux-on-action.js",
@@ -11,12 +13,24 @@
     "test": "eslint src",
     "release": "npm run build && npm t && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
   },
-  "author": "Deseteral <deseteral@gmail.com>",
-  "license": "MIT",
   "devDependencies": {
     "eslint": "5.5.0",
     "eslint-config-airbnb-base": "13.1.0",
     "eslint-plugin-import": "2.14.0",
     "microbundle": "0.6.0"
-  }
+  },
+  "homepage": "https://github.com/Deseteral/redux-on-action",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Deseteral/redux-on-action.git"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "keywords": [
+    "redux",
+    "redux middleware",
+    "async"
+  ]
 }
