@@ -50,10 +50,10 @@ Registers action listener. When specified action is dispatched - provided functi
 * `action` -
 String, type of Redux action.
 * `callback` -
-[onActionCallback](#onActionCallback), function that will be called when action is dispatched.
+[onActionCallback](#onactioncallback), function that will be called when action is dispatched.
 
 ### onActionCallback
-Function specified as [onAction](#onAction) callback.
+Function specified as [onAction](#onaction) callback.
 
 #### Arguments
 * `action` -
