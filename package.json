@@ -7,7 +7,7 @@
   "main": "dist/redux-on-action.js",
   "umd:main": "dist/redux-on-action.umd.js",
   "scripts": {
-    "build": "microbundle src/index.js -o dist/redux-on-action.js --compress false",
+    "build": "microbundle src/index.js -o dist/redux-on-action.js",
     "test": "eslint src",
     "release": "npm t && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
   },
