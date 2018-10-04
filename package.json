@@ -32,5 +32,8 @@
     "redux",
     "redux middleware",
     "async"
-  ]
+  ],
+  "dependencies": {
+    "@types/redux": "3.6.0"
+  }
 }
