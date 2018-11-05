@@ -23,8 +23,7 @@
     "eslint-config-airbnb-base": "13.1.0",
     "eslint-plugin-import": "2.14.0",
     "jest": "23.6.0",
-    "microbundle": "0.6.0",
-    "regenerator-runtime": "0.12.1"
+    "microbundle": "0.6.0"
   },
   "homepage": "https://github.com/Deseteral/redux-on-action",
   "repository": {
