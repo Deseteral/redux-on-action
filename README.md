@@ -1,5 +1,5 @@
 # redux-on-action
-[![Build Status](https://travis-ci.org/Deseteral/redux-on-action.svg?branch=master)](https://travis-ci.org/Deseteral/redux-on-action)
+![Build Status](https://github.com/Deseteral/redux-on-action/workflows/Build/badge.svg)
 
 Do something async when Redux action happens. Yet another (tiny, ~185 bytes) Redux async middleware.
 
