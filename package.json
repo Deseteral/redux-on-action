@@ -10,19 +10,25 @@
   "umd:main": "dist/redux-on-action.umd.js",
   "scripts": {
     "build": "microbundle src/index.js -o dist/redux-on-action.js",
-    "test": "eslint src",
-    "release": "npm run build && npm t && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
+    "lint": "eslint src",
+    "test": "jest",
+    "release": "npm run lint && npm run build && npm t && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
   },
   "devDependencies": {
+    "@babel/core": "7.1.2",
+    "@babel/preset-env": "7.1.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "23.6.0",
     "eslint": "5.5.0",
     "eslint-config-airbnb-base": "13.1.0",
     "eslint-plugin-import": "2.14.0",
+    "jest": "23.6.0",
     "microbundle": "0.6.0"
   },
   "homepage": "https://github.com/Deseteral/redux-on-action",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/Deseteral/redux-on-action.git"
+    "type": "git",
+    "url": "https://github.com/Deseteral/redux-on-action.git"
   },
   "files": [
     "dist",
